@@ -2,7 +2,7 @@
 <!DOCTYPE variants PUBLIC "-//Red Hat, Inc.//DTD Variants info//EN" "variants.dtd">
 
 <variants>
-  <variant id="Minimal" name="Minimal" type="variant" has_optional="true">
+  <variant id="Minimal" name="Minimal" type="variant">
     <arches>
       <arch>x86_64</arch>
     </arches>

@@ -13,5 +13,5 @@ mkdir -p _composes
 pungi-koji \
 --no-label \
 --target-dir="$HERE/_composes" \
---old-composes="$HERE/_composes" \
---config="$HERE/dummy-pungi.conf"
+--config="$HERE/dummy-pungi.conf" \
+--gather-tempdir="/home/user/tmp"
